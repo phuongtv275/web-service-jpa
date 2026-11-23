@@ -29,7 +29,7 @@
             POSTGRES_PASSWORD: 1234$
             POSTGRES_DB: product_db
           ports:
-            5432:5432
+            - 5432:5432
           options: >-
             --health-cmd "pg_isready -U postgres -d product_db"
             --health-interval 10s
