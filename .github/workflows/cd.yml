@@ -43,7 +43,7 @@ jobs:
             echo "=========================================================="
 
             DEPLOY_PATH="webservice-jpa-dockerhup"  
-            IMAGE_NAME="phuongtv/webservice-jpa"
+            IMAGE_NAME="phuongtv268/webservice-jpa"
 
             # 1. Clone repository neu chua ton tai
             if [ ! -d "$DEPLOY_PATH" ]; then

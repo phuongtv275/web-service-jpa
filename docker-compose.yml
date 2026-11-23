@@ -1,7 +1,7 @@
 
 services:
   product-backend:
-    image: phuongtv/webservice-jpa:${IMAGE_TAG:-latest}
+    image: phuongtv268/webservice-jpa:${IMAGE_TAG:-latest}
     container_name: product-backend
     restart: unless-stopped
     ports:

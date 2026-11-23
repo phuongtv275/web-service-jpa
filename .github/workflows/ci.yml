@@ -84,7 +84,7 @@
             context: .
             push: ${{ github.event_name != 'pull_request' }}
             tags: |
-              phuongtv/webservice-jpa:latest
-              phuongtv/webservice-jpa:${{ github.sha }}
+              phuongtv268/webservice-jpa:latest
+              phuongtv268/webservice-jpa:${{ github.sha }}
             cache-from: type=gha
             cache-to: type=gha,mode=max
