@@ -60,7 +60,7 @@ jobs:
 
             # 3. Dang nhap Docker Hub
             echo "[3/7] Dang nhap Docker Hub..."
-            echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u phuongtv275 --password-stdin
+            echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u phuongtv268 --password-stdin
 
             # 4. Xac dinh tag image
             # Neu khong co SHA (deploy thu cong) thi dung latest
