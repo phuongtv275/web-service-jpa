@@ -42,8 +42,8 @@ jobs:
             echo ">>> BAT DAU QUA TRINH DEPLOY TREN VPS"
             echo "=========================================================="
 
-            DEPLOY_PATH="jb-ioc-260316-ss10-dockerhup"  
-            IMAGE_NAME="haibtrikkei/product-backend-ss10-260316"
+            DEPLOY_PATH="webservice-jpa-dockerhup"  
+            IMAGE_NAME="phuongtv/webservice-jpa"
 
             # 1. Clone repository neu chua ton tai
             if [ ! -d "$DEPLOY_PATH" ]; then
